@@ -1,0 +1,22 @@
+{
+  "name": "monaco-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RequireSun/monaco-test.git"
+  },
+  "author": "RequireSun <kelvinsen@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RequireSun/monaco-test/issues"
+  },
+  "homepage": "https://github.com/RequireSun/monaco-test#readme",
+  "dependencies": {
+    "monaco-editor": "^0.16.2"
+  }
+}
