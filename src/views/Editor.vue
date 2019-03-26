@@ -12,8 +12,10 @@ import { editor } from 'monaco-editor';
     components: {},
 })
 export default class Editor extends Vue {
+    private _editor: editor.IStandaloneCodeEditor;
+
     private mounted() {
-        editor.create(this.$refs.editorContainer as HTMLElement);
+        this._editor = editor.create(this.$refs.editorContainer as HTMLElement);
     }
 }
 </script>
