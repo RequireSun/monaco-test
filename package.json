@@ -1,10 +1,13 @@
 {
   "name": "monaco-test",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,20 @@
   },
   "homepage": "https://github.com/RequireSun/monaco-test#readme",
   "dependencies": {
-    "monaco-editor": "^0.16.2"
+    "monaco-editor": "^0.16.2",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-typescript": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "typescript": "^3.2.1",
+    "vue-template-compiler": "^2.5.21"
   }
 }
