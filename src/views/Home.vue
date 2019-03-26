@@ -16,3 +16,10 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 })
 export default class Home extends Vue {}
 </script>
+
+<style lang="less" scoped>
+.home {
+  text-align: center;
+  color: #2c3e50;
+}
+</style>
